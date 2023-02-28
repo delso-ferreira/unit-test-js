@@ -20,32 +20,33 @@
 const mensagem = 'trabalho na Trybe e mando muito em programação!';
 const foguete = '#VQV!';
 
-const arrayDePessoas = [
-{
- pessoa1: {    
+
+
+const pessoa1 = {    
   nome: 'Tunico',
   idade: 29,
   trybe: mensagem,
   vamos: foguete,
- },
+ };
 
- pessoa2: {
+ const pessoa2 = {
   nome: 'Alberto',
   idade: 29,
   trybe: mensagem,
   vamos: foguete,
-},
+};
 
- pessoa3: {
+ const pessoa3 = {
   nome: 'Hamaji',
   idade: 29,
   trybe: mensagem,
   vamos: foguete,
-},
-}];
+};
 
-// eslint-disable-next-line max-len
-const mensagemTrybe = `Oi, meu nome é ${Object.keys(arrayDePessoas)}!\nTenho ${pessoa.idade.object.keys} anos,\n${pessoa.mensagem}\n${pessoa.foguete}`;
+const mensagemTrybe = `Oi, meu nome é ${pessoa1.nome}!
+Tenho ${pessoa1.idade} 
+anos,${pessoa1.trybe}
+${pessoa1.vamos}`;
 
 const vqv = () => 
 
