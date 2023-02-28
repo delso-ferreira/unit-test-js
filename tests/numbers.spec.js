@@ -14,11 +14,6 @@ const numbers = require('../src/numbers');
 
 */
 
-array1 = [1, 2, 3, 4, 5]
-array2 = [1, 2, '3', 4, 5]
-arrary3 = [1, 'a', 3]
-array4 = [' ']
-
 describe('2 - Implemente os casos de teste para a função `numbers`', () => {
   it('Verifica se a função `numbers` retorna `true` quando o array contém apenas números e falso caso contrário', () => {
      expect(() => {
