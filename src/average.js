@@ -12,6 +12,14 @@
     
 */
 
-const average = () => {};
+const average = () => {
+  const array = [];  
+  let resultado;
+  for (let index = 0; index < array.length; index += 1) {
+   resultado = Math.round(array[index] / 2);
+   }
+  return resultado;
+};
+average();
 
 module.exports = average;
