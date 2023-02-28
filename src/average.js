@@ -12,14 +12,23 @@
     
 */
 
-const average = () => {
-  const array = [];  
-  let resultado;
+// já está sendo criado o array no teste, não se faz necessário criar um array, apenas passar o paramêtro
+// necessário juntar adicionar os index em um local e fazer o cálculo respectivamente pelo tamanho do array, que retorna um número
+
+const average = (array) => {
+  if (array.length === 0) { 
+    return undefined;
+  }
+  
+  let sumIndex = 0; // soma os index
   for (let index = 0; index < array.length; index += 1) {
-   resultado = Math.round(array[index] / 2);
-   }
-  return resultado;
+    if (typeof array[index] !== 'number') { 
+      return undefined;
+    }
+    sumIndex += array[index];
+    }
+  
+  return Math.round(sumIndex / array.length); // retornar o valor inteiro do index pelo tamanho
 };
-average();
 
 module.exports = average;
