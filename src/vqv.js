@@ -20,8 +20,6 @@
 const mensagem = 'trabalho na Trybe e mando muito em programação!';
 const foguete = '#VQV!';
 
-
-
 const pessoa1 = {    
   nome: 'Tunico',
   idade: 29,
