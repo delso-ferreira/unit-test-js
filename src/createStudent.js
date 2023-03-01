@@ -15,27 +15,6 @@
     estudante.feedback() // Retorna: 'Eita pessoa boa!'
 */
 
-const createStudent = () => {
-       
-    const estudante1 = {
-    name: 'Leandrão, o Lobo Solitário';,
-    mensagem: 'Eita pessoa boa!',
-    feedback: function retornaMensagem() { return 'Eita pessoa boa!'; },    
-    };    
-    
-    const estudante2 = {
-    name: 'Nobre',
-    mensagem: 'Eita pessoa boa!',
-    feedback: function retornaMensagem() { return 'Eita pessoa boa!'; },     
-    };     
-    
-    const estudante3 = {
-    name: 'Inácio',
-    mensagem: 'Eita pessoa boa!',
-    feedback: function retornaMensagem() { return 'Eita pessoa boa!'; },    
-    };
+ const createStudent = () => {};
 
-    
-  } 
-    
 module.exports = createStudent;
