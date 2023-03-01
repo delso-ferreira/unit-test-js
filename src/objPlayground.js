@@ -34,8 +34,27 @@
   arrayGenerator('entries', { sum: 3, mult: 2, div: 0, sub: -1 }) // [ [ 'sum', 3 ], [ 'mult', 2 ], [ 'div', 0 ], [ 'sub', -1 ] ]
 */
 
-const calculator = (number1, number2) => {};
+const calculator = (numberinteiro1, numberinteiro2) => ({
+    sum: Math.round(numberinteiro1 + numberinteiro2),
+    mult: Math.round(numberinteiro1 * numberinteiro2),
+    div: Math.round(Math.floor(numberinteiro1 / numberinteiro2)),
+    sub: Math.round(numberinteiro1 - numberinteiro2),
+  });  
 
-const arrayGenerator = (type, object) => {};
+const arrayGenerator = (string, b ) => {
+  const keys = Object.keys(calculator());  
+  const valores = Object.values(calculator());  
+  const total = Object.assign(calculator());
+  
+  /* if (x1 === 'keys') {
+    x2 = chaves;
+  } else if (x1 === 'values') {
+    x2 = valores;
+  } else if (x1 === 'entries') {
+    x2 = total;
+  } */
+};
+  // Uma string que indica o tipo de conversão
+  // Um objeto no formato { sum: 3, mult: 2, div: 0, sub: -1 }
 
 module.exports = { calculator, arrayGenerator };

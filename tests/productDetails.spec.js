@@ -44,7 +44,7 @@ describe('6 - Implemente os casos de teste para a função `productDetails`', ()
           expect(productDetails('suco', 'cerveja')).toEqual(productDetails('suco', 'cerveja'))})
           it('Teste se os dois productIds terminam com 123', () => {                        
             const array = productDetails(['a', 'b'])
-            expect(array[0].details.productId.includes('123') && array[1].details.productId.includes('123')).toBe(true);         
+            expect(array[0].details.productId.endsWith('123') && array[1].details.productId.endsWith('123')).toEqual(true);         
           })
     
   
