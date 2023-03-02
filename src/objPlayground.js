@@ -41,20 +41,10 @@ const calculator = (numberinteiro1, numberinteiro2) => ({
     sub: Math.round(numberinteiro1 - numberinteiro2),
   });  
 
-const arrayGenerator = (string, b ) => {
-  const keys = Object.keys(calculator());  
-  const valores = Object.values(calculator());  
-  const total = Object.assign(calculator());
-  
-  /* if (x1 === 'keys') {
-    x2 = chaves;
-  } else if (x1 === 'values') {
-    x2 = valores;
-  } else if (x1 === 'entries') {
-    x2 = total;
-  } */
+const arrayGenerator = (string, b) => {  
+  if (string === 'keys') return Object.keys(b);
+  if (string === 'values') return Object.values(b);
+  if (string === 'entries') return Object.entries(b);
 };
-  // Uma string que indica o tipo de conversão
-  // Um objeto no formato { sum: 3, mult: 2, div: 0, sub: -1 }
-
+  
 module.exports = { calculator, arrayGenerator };
