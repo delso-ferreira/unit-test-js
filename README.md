@@ -1,13 +1,25 @@
 # :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+<h1>Testes Unitários em JavaScript</h1>
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Este repositório contém o código fonte de um projeto em <strong>JavaScript</strong> baseado em testes unitários. A estrutura do projeto foi fornecida pela <strong>Trybe</strong> como parte do curso de Desenvolvimento Web Full Stack.
+
+O objetivo deste projeto é desenvolver funções em JavaScript e implementar testes unitários para garantir que elas funcionem corretamente em diversas situações. Além disso, o projeto visa utilizar a técnica de <strong>TDD (Test Driven Development)</strong> para guiar o desenvolvimento das funções.
+
+<h2>Instalação</h2>
+
+Para executar o projeto, siga os seguintes passos:
+
+<h3>Clone o repositório:</h3>
+
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+<h3>Acesse a pasta do projeto:</h3>
+
+cd nome-do-repositorio
+
+<h1>Utilização</h1:>
+
+As funções desenvolvidas neste projeto estão localizadas no arquivo src. Para executá-las, é necessário importá-las no seu código.
+
+Foram desenvolvidos testes unitários para cada função do arquivo <strong>src</strong>. Os testes estão localizados no arquivo <strong>tests</strong>.
