@@ -16,7 +16,7 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 cd nome-do-repositorio
 
-<h1>Utilização</h1:>
+<h1>Utilização</h1>
 
 As funções desenvolvidas neste projeto estão localizadas no arquivo src. Para executá-las, é necessário importá-las no seu código.
 
