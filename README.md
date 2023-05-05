@@ -1,6 +1,4 @@
-# :construction: README customizado em construção ! :construction:
-
-<h1>Testes Unitários em JavaScript</h1>
+<h1>Testes Unitários em JavaScript 🧪🧪</h1>
 
 Este repositório contém o código fonte de um projeto em <strong>JavaScript</strong> baseado em testes unitários. A estrutura do projeto foi fornecida pela <strong>Trybe</strong> como parte do curso de Desenvolvimento Web Full Stack.
 
